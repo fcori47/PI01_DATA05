@@ -32,6 +32,8 @@ Después de la creación de la API, en la misma se debe consultar lo siguiente:
 
 ## Procedimiento
 
+![Untitled](_src/proyect.jpg)
+
 En primer lugar, importé las librerías Pandas (librería de Python especializada en la manipulación y el análisis de datos) y Numpy (librería que da soporte a una gran colección de funciones matemáticas de alto nivel, cuenta con una gran velocidad al estar escrito en su mayor parte en C). Luego realicé la carga de los datasets de Netflix, Amazon Prime, Hulu, y Disney+ con Pandas, los mismos datasets cuentan con información de tanto películas como series durante los años en las plataformas anteriormente mencionadas.
 
 Luego, corroboré cuantos valores faltantes se encuentran en cada columna y dependiendo del tipo de datos que se encuentran en la misma, trabajé de una forma distinta. Siempre buscando la mejor calidad en los datos en cuestión, ya que cuento con una metodología de trabajo en la que busco no eliminar las tablas que tienen valores faltantes, ya que alguna de sus diversas filas pueden llegar a contar con información reelevante.
