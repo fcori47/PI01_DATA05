@@ -34,6 +34,7 @@ Después de la creación de la API, en la misma se debe consultar lo siguiente:
 
 ![Untitled](_src/proyect.jpg)
 
+
 Video explicativo de todo el proceso: https://www.youtube.com/watch?v=o5XN2bbH768&t=1s&ab_channel=FacundoCorengia
 
 En primer lugar, importé las librerías Pandas (librería de Python especializada en la manipulación y el análisis de datos) y Numpy (librería que da soporte a una gran colección de funciones matemáticas de alto nivel, cuenta con una gran velocidad al estar escrito en su mayor parte en C). Luego realicé la carga de los datasets de Netflix, Amazon Prime, Hulu, y Disney+ con Pandas, los mismos datasets cuentan con información de tanto películas como series durante los años en las plataformas anteriormente mencionadas.
@@ -52,7 +53,7 @@ Esta función se encarga de otorgarnos la película o serie con mayor duración 
 
 - get_listedin(genero)
 
-Esta función toma el parámetro ‘genero’ (este parámetro hace referencia a los distintos géneros de películas y series) que es de tipo string (o tipo texto). Si queremos buscar que género se encuentra mayor cantidad de veces en las diversas plataformas tenemos que ingresar el nombre del género con la primera letra en mayúscula.
+Esta función toma el parámetro ‘genero’ (este parámetro hace referencia a los distintos géneros de películas y series) que es de tipo string (o tipo texto). Si queremos buscar que género se encuentra mayor cantidad de veces en las diversas plataformas, debemos ingresar el nombre del género con la primera letra en mayúscula.
 
 - get_count_plataform(platform)
 
