@@ -25,7 +25,7 @@ Después de la creación de la API, en la misma se debe consultar lo siguiente:
 
 - Máxima duración según tipo de film (película/serie), por plataforma y por año: El request debe ser: get_max_duration(year, platform, min_or_season)
 - Cantidad de películas y series (separado) por plataforma El request debe ser: get_count_plataform(platform)
-- Cantidad de veces que se repite un género y plataforma con mayor frecuencia del mismo. El request debe ser: get_listedin(genero). Como ejemplo de género pueden usar ‘Comedy', el cuál deberia devolverles un count de 2099 para la plataforma de Amazon Prime.
+- La plataforma en la cual se repite una mayor cantidad de veces un género y la cantidad. El request debe ser: get_listedin(genero). Como ejemplo de género pueden usar ‘Comedy', el cuál deberia devolverles un count de 2099 para la plataforma de Amazon Prime.
 - Actor que más se repite según plataforma y año. El request debe ser: get_actor(platform, year).
 
 ---
@@ -33,6 +33,8 @@ Después de la creación de la API, en la misma se debe consultar lo siguiente:
 ## Procedimiento
 
 ![Untitled](_src/proyect.jpg)
+
+Video explicativo de todo el proceso: https://www.youtube.com/watch?v=o5XN2bbH768&t=1s&ab_channel=FacundoCorengia
 
 En primer lugar, importé las librerías Pandas (librería de Python especializada en la manipulación y el análisis de datos) y Numpy (librería que da soporte a una gran colección de funciones matemáticas de alto nivel, cuenta con una gran velocidad al estar escrito en su mayor parte en C). Luego realicé la carga de los datasets de Netflix, Amazon Prime, Hulu, y Disney+ con Pandas, los mismos datasets cuentan con información de tanto películas como series durante los años en las plataformas anteriormente mencionadas.
 
