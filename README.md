@@ -68,7 +68,7 @@ Con este comando creamos el contenedor de Docker con todo lo que necesitamos par
 
 ![Untitled](_src/Untitled%201.png)
 
-Una vez ejecutado el comando anterior, nos podemos dirigir a la API que se encuentra corriendo en nuestra computadora en el siguiente link [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs).
+Una vez ejecutado el comando anterior, nos podemos dirigir a la API que se encuentra corriendo en nuestra computadora en el siguiente link [http://localhost/docs](http://localhost/docs).
 
 ![Untitled](_src/Untitled%202.png)
 
